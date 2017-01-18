@@ -1,4 +1,4 @@
-from unittest import TestCase
+from unittest import TestCase, main
 from fizzbuzz import fizz_buzz
 
 class FizzBuzzClassTest(TestCase):
@@ -29,4 +29,4 @@ class FizzBuzzClassTest(TestCase):
         self.assertEqual(fizz_buzz(8), 8, msg='should return the number if its in divisible by neither 3 or 5')
 
 if __name__ == "__main__":
-  unittest.main()
+    main()
