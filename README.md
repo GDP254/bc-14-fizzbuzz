@@ -1,4 +1,4 @@
-# Data Type Andelab
+# Fizz Buzz Andelab
 
 Solution to the following assignment.
 
